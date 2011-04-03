@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 0ce92c72a3d4e73730b273d8ed06419b55840ecf Changes
+SHA1 868746efc4948df200686e71826bca4e10fe564a Changes.ttl
+SHA1 43b1a11e6b676c8cbed364341646863a45344513 Changes.xml
+SHA1 1ad9767e01c0a04e1eba03f49714c25711f3c7f9 MANIFEST
+SHA1 f5e0e1a1bb5bd5e30043a2123bf757fa648bedf8 MANIFEST.SKIP
+SHA1 490cd7638068a7aaf2ccf99e47b4bb9b08617807 META.yml
+SHA1 20863b64a0960a8596586410f9d016002d99f4d4 Makefile.PL
+SHA1 ed908a57aff7b8ab13cbd1786d0f8cd34e3935b1 README
+SHA1 ab8f4c709b1fed6b163791cf7a451660f699dad0 TODO
+SHA1 20c73697e1713638140c719d8eaa19a275ed43a5 inc/Module/AutoInstall.pm
+SHA1 7305dbe2904416e28decb05396988a5d51d578be inc/Module/Install.pm
+SHA1 ca13d9875e1249f6e84f7070be8152c34837955e inc/Module/Install/AutoInstall.pm
+SHA1 129960509127732258570c122042bc48615222e1 inc/Module/Install/Base.pm
+SHA1 cf3356ed9a5bd2f732527ef9e7bc5ef4458c8a93 inc/Module/Install/Can.pm
+SHA1 986dcb1f1b6a1fde7c51f1558b93368e2429caa2 inc/Module/Install/DOAPChangeSets.pm
+SHA1 bf0a3e1977effc2832d7a813a76dce3f31b437b6 inc/Module/Install/Fetch.pm
+SHA1 b501b0df59a5cd235cca473889f82c3d3429f39e inc/Module/Install/Include.pm
+SHA1 b721c93ca5bc9a6aa863b49af15f1b1de6125935 inc/Module/Install/Makefile.pm
+SHA1 026cc0551a0ad399d195e395b46bdf842e115192 inc/Module/Install/Metadata.pm
+SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.pm
+SHA1 5457015ea5a50e93465bf2dafa29feebd547f85b inc/Module/Install/Win32.pm
+SHA1 051e7fa8063908befa3440508d0584a2497b97db inc/Module/Install/WriteAll.pm
+SHA1 0418aa1d3451a0e60163c0d6cbf2af352c1f3b46 lib/RDF/Trine/Store/Jena/SDB/Layout2/Hash.pm
+SHA1 3824b5566e15e3af859dfa1f2332559a502d286d t/01basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAk2Y7uQACgkQzr+BKGoqfTmy2ACeIKiHnoqsBfvKydmspTCLYFkr
+/egAnRxEGEAH78V10WAvaM1IaS0r4Abp
+=7jIR
+-----END PGP SIGNATURE-----

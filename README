@@ -1,0 +1,33 @@
+NAME
+    RDF::Trine::Store::Jena::SDB::Layout2::Hash - connect to Jena SDB stores
+    in layout2 hash format
+
+DESCRIPTION
+    This module inherits from RDF::Trine::Store so provides the constructors
+    and methods described there. It also provides a method "init" analogous
+    to that from RDF::Trine::Store::DBI which creates the table structures
+    and indexes in a blank database.
+
+    This should theoretically work on any reasonably SQL-compliant database
+    supported by DBI. Tested:
+
+    *   PostgreSQL - works
+
+    *   SQLite - "get_statements" fails
+
+SEE ALSO
+    RDF::Trine::Store.
+
+    <http://www.perlrdf.org/>.
+
+    <http://openjena.org/wiki/SDB/Database_Layouts>.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT
+    Copyright 2011 Toby Inkster
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
